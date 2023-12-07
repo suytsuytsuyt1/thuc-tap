@@ -1,0 +1,89 @@
+.tintuc{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+#vett{
+    background-color: rgb(11, 156, 67);
+    margin-left: 20px;
+}
+#vett a img{
+    width: 40px;
+}
+#vett a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(153, 206, 40);
+    
+}
+/*----------tin tức trái------*/
+#tintuc_trai > img{
+    width: 750px;
+    margin-left: 20px;
+}
+
+#home{
+    display: flex;
+}
+#tintuc_trai{
+    flex: 2;
+}
+
+#tintuc_1{
+    display: flex;
+    padding: 20px;
+}
+#chu a{
+    margin-left: 20px;
+    font-size: 24px;
+    color: rgb(13, 107, 50);
+    display: block;
+    text-decoration: none;
+}
+#tintuc_1 a:hover{
+    color: rgb(15, 176, 79);
+}
+#chu p{
+    margin-left: 20px;
+    font-size: 18px;
+    font-style: oblique;
+    opacity: 60%;
+
+}
+/*----------tin tức phải------*/
+
+#tintuc_phai{
+    flex: 1;
+    
+}
+#tintuc_phai_h3 {
+    background-color: rgb(19, 149, 58);
+    width: 200px;
+   height: 40px;
+   margin-bottom: 10px;
+   
+}
+#tintuc_phai_h3 h3{
+    text-transform: uppercase;
+    color: rgb(143, 229, 137);
+    padding-top: 10px;
+    text-align: center;
+}
+
+#tintuc_2{
+    display: flex;
+    padding-bottom: 10px;
+}
+#tintuc_2 a{
+    text-decoration: none;
+    color:rgb(13, 107, 50);
+    font-size: 15px;
+}
+#tintuc_2 a:hover{
+    color: rgb(15, 176, 79);
+}
+#chu_2{
+   
+   padding: 0 10px 10px 10px;
+    
+}
